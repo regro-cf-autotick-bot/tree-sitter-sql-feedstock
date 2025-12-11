@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tree-sitter-sql
-  version: "0.3.9"
+  version: "0.3.11"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/DerekStride/tree-sitter-sql/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: f56e3a8e1155259eab0cf3b59e3a7363a615b965d6f1df80c27364901502e0b7
+  sha256: 1fe13cb1e50dd9da9f22aed3cb9430fc9dae05a734a6049926fc12f6d8ecd3ae
 
 build:
   number: 0
