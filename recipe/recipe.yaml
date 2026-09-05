@@ -13,7 +13,7 @@ source:
   sha256: 1fe13cb1e50dd9da9f22aed3cb9430fc9dae05a734a6049926fc12f6d8ecd3ae
 
 build:
-  number: 0
+  number: 1
   script:
     - tree-sitter generate
     - ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
